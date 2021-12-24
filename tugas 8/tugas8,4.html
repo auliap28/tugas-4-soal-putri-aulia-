@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getjumlah (){
+            var hasil;
+            var bil1;
+            var bil2;
+            input1 = parseint(document.getElementById("txtinput1").value);
+            input2 = parseint(document.getElementById("txtinput2").value);
+
+            hasil = bil1 + bil2;
+
+            document.getElementById("txthasil").valur = hasil;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label> Bilangan Pertama </label>
+        <input type="text" id="txtinput1">
+    </div>
+    <h5>+</h5>
+    <div>
+        <label> Bilangan kedua </label>
+        <input type="text" id="txtinput2">
+    </div>
+    <br>
+    <div>
+        <input type="text" value="jumlah" pneclick="getjumlah()">
+    </div>
+    <br>
+    <div>
+        <label>Hasil</label>
+        <input type="text" id="txthasil">
+    </div>
+</body>
+</html>
